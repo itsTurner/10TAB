@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Tab</title>
+    <script src="p5.min.js" charset="utf-8"></script>
+    <script src="sketches/tenprint.js" charset="utf-8"></script>
+    <style>
+      html, body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+      input[type="color"] {
+      	-webkit-appearance: none;
+      	border: none;
+      	width: 25px;
+      	height: 25px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px lightgrey;
+      }
+      input[type="color"]:focus {
+        outline: none;
+        border-color: black;
+        background-color: none;
+      }
+      input[type="color"]::-webkit-color-swatch-wrapper {
+      	padding: 0;
+        border: none;
+        border-radius: 50%;
+      }
+      input[type="color"]::-webkit-color-swatch {
+      	border: none;
+        border-radius: 50%;
+      }
+      #floatie {
+        position: fixed;
+        bottom: 1vh;
+        left: 1vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="floatie">
+    </div>
+  </body>
+</html>

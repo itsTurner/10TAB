@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "10 TAB",
+  "description": "Acquire a randomly generated pattern from 10 PRINT with every new tab.",
+  "version": "0.0.2",
+  "chrome_url_overrides": {
+    "newtab": "page.html"
+  }
+}
