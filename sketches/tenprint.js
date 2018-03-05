@@ -78,7 +78,6 @@ function doThings() {
 }
 
 window.addEventListener('resize', function(e){
-  console.log('Kill me please')
   nW = window.innerWidth / oW
 }, false)
 
